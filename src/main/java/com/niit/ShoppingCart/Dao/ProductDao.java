@@ -6,7 +6,8 @@ import com.niit.ShoppingCart.Model.Product;
 public interface ProductDao {
 
 	public List<Product> list();
-	public Product getProduct(String id);
-	public void update(Product product);
-	public void delete(String id);
+	public Product getProduct(String name);
+	public Product getProductById(String id);
+	public void updateProduct(Product product);
+	public void deleteProduct(String id);
 }
