@@ -9,6 +9,6 @@ public interface SupplierDao {
 	public List<Supplier> list();
 	public Supplier getSupplier(String name);
 	public Supplier getSupplierById(String id);
-	public Supplier updateSupplier(Supplier supplier);
+	public void SaveorUpdateSupplier(Supplier supplier);
 	public void deleteSupplier(String id);
 }
